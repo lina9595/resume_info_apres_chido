@@ -1,0 +1,28 @@
+# 🌐 Ignorer les fichiers de configuration sensibles
+.env
+config.json
+config.yml
+
+# 🔥 Ignorer l'environnement virtuel Python
+venv/
+.venv/
+
+# ⚙️ Ignorer les fichiers temporaires et caches
+__pycache__/
+.cache/
+*.log
+*.pyc
+
+# 🖥️ Ignorer les fichiers système (Windows et macOS)
+.DS_Store
+Thumbs.db
+
+# 📦 Ignorer les fichiers de compilation ou de build
+build/
+dist/
+
+# 📦 Ignorer le dossier de dépendances Node.js (si tu utilises npm/yarn)
+node_modules/
+
+# 🧪 Ignorer les fichiers de test
+.coverage
