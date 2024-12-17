@@ -3,21 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page de Résumé des Infos - Mayotte</title>
+    <title>CycloneChido - Alertes en temps réel</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
+        /* Styles généraux */
+        * {
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
         }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
         header {
             background-color: #0073e6;
             color: white;
             text-align: center;
             padding: 20px 0;
         }
-        
+
+        header h1 {
+            font-size: 2rem;
+        }
+
         .container {
             max-width: 1200px;
             margin: 20px auto;
@@ -26,14 +37,14 @@
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
-        
+
         .search-bar {
             display: flex;
             justify-content: space-between;
             align-items: center;
             margin-bottom: 20px;
         }
-        
+
         .search-bar input[type="text"] {
             width: 100%;
             padding: 10px;
@@ -41,31 +52,44 @@
             border-radius: 4px;
             font-size: 16px;
         }
-        
+
+        .alert {
+            background-color: #f44336;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .alert span {
+            font-weight: bold;
+        }
+
         table {
             width: 100%;
             border-collapse: collapse;
             margin-top: 20px;
         }
-        
+
         table, th, td {
             border: 1px solid #ddd;
         }
-        
+
         th, td {
             padding: 12px;
             text-align: center;
         }
-        
+
         th {
             background-color: #0073e6;
             color: white;
         }
-        
+
         tr:nth-child(even) {
             background-color: #f9f9f9;
         }
-        
+
         .category {
             display: inline-block;
             padding: 5px 10px;
@@ -73,31 +97,51 @@
             color: white;
             border-radius: 4px;
         }
-        
+
         .category-recherche {
             background-color: #e63946;
         }
+
         .category-retrouve {
             background-color: #2a9d8f;
         }
+
         .category-info {
             background-color: #f4a261;
         }
+
+        footer {
+            background-color: #0073e6;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
     </style>
 </head>
 <body>
 
 <header>
-    <h1>Résumé des Informations de Mayotte</h1>
-    <p>Accès rapide aux annonces importantes et à la recherche de proches</p>
+    <h1>🌪️ CycloneChido - Alertes en temps réel</h1>
+    <p>Suivez les mises à jour importantes et les alertes de sécurité</p>
 </header>
 
 <div class="container">
-    
+
+    <!-- Barre de recherche -->
     <div class="search-bar">
-        <input type="text" id="search" placeholder="Recherchez par ville, nom ou mot-clé (ex : 'disparu', 'retrouvé', 'urgence')...">
+        <input type="text" id="search" placeholder="Recherchez par mot-clé (ex : 'cyclone', 'inondation', 'disparu')">
     </div>
-    
+
+    <!-- Section d'alerte -->
+    <div class="alert">
+        ⚠️ <span>Attention !</span> Des inondations sont signalées à Koungou.
+    </div>
+
+    <!-- Table des publications -->
     <table>
         <thead>
             <tr>
@@ -112,32 +156,31 @@
                 <td>16/12/2024 - 08:30</td>
                 <td>Mamoudzou</td>
                 <td><span class="category category-recherche">Personne recherchée</span></td>
-                <td>"Nous recherchons Omar, dernière fois vu à Cavani. Si vous avez des infos, contactez le 06 12 34 56 78."</td>
+                <td>"Recherche Omar, disparu à Cavani. Contactez le 06 12 34 56 78."</td>
             </tr>
             <tr>
                 <td>16/12/2024 - 09:15</td>
                 <td>Koungou</td>
                 <td><span class="category category-info">Information importante</span></td>
-                <td>"Les routes principales sont bloquées à cause des inondations dans la zone de Koungou."</td>
+                <td>"Inondations signalées à Koungou. Routes principales bloquées."</td>
             </tr>
             <tr>
                 <td>16/12/2024 - 10:00</td>
                 <td>Kawéni</td>
                 <td><span class="category category-retrouve">Personne retrouvée</span></td>
-                <td>"Bonne nouvelle ! Omar a été retrouvé sain et sauf, il est en sécurité avec sa famille."</td>
-            </tr>
-            <tr>
-                <td>16/12/2024 - 10:45</td>
-                <td>Passamainty</td>
-                <td><span class="category category-info">Information importante</span></td>
-                <td>"Besoin d’eau potable dans le quartier de Passamainty. La situation devient critique."</td>
+                <td>"Omar a été retrouvé sain et sauf à Cavani."</td>
             </tr>
         </tbody>
     </table>
-    
+
 </div>
 
+<footer>
+    CycloneChido - 2024 - Connecté pour sauver des vies 🌍
+</footer>
+
 <script>
+    // Barre de recherche fonctionnelle
     document.getElementById('search').addEventListener('input', function() {
         const searchTerm = this.value.toLowerCase();
         const rows = document.querySelectorAll('#table-body tr');
