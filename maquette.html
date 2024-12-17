@@ -19,10 +19,18 @@
         }
 
         header {
-            background-color: #0073e6;
-            color: white;
+            background-color: #ffcc00; 
+            color: #1f6c9c; 
             text-align: center;
             padding: 20px 0;
+            position: relative;
+        }
+
+        header img {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            height: 50px;
         }
 
         header h1 {
@@ -38,15 +46,13 @@
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
 
-        .search-bar {
+        .filters {
             display: flex;
             justify-content: space-between;
-            align-items: center;
             margin-bottom: 20px;
         }
 
-        .search-bar input[type="text"] {
-            width: 100%;
+        .filters select, .filters input[type="text"] {
             padding: 10px;
             border: 1px solid #ddd;
             border-radius: 4px;
@@ -54,8 +60,8 @@
         }
 
         .alert {
-            background-color: #f44336;
-            color: white;
+            background-color: #ffcc00;
+            color: #1f6c9c;
             padding: 10px;
             border-radius: 5px;
             text-align: center;
@@ -82,8 +88,8 @@
         }
 
         th {
-            background-color: #0073e6;
-            color: white;
+            background-color: #ffcc00;
+            color: #1f6c9c;
         }
 
         tr:nth-child(even) {
@@ -98,20 +104,8 @@
             border-radius: 4px;
         }
 
-        .category-recherche {
-            background-color: #e63946;
-        }
-
-        .category-retrouve {
-            background-color: #2a9d8f;
-        }
-
-        .category-info {
-            background-color: #f4a261;
-        }
-
         footer {
-            background-color: #0073e6;
+            background-color: #1f6c9c;
             color: white;
             text-align: center;
             padding: 10px 0;
@@ -125,15 +119,26 @@
 <body>
 
 <header>
+    <img src="images.png" alt="Logo Mayotte 1ère">
     <h1>🌪️ CycloneChido - Alertes en temps réel</h1>
     <p>Suivez les mises à jour importantes et les alertes de sécurité</p>
 </header>
 
 <div class="container">
 
-    <!-- Barre de recherche -->
-    <div class="search-bar">
-        <input type="text" id="search" placeholder="Recherchez par mot-clé (ex : 'cyclone', 'inondation', 'disparu')">
+    <!-- Filtres de recherche -->
+    <div class="filters">
+        <input type="text" id="search" placeholder="Recherchez par mot-clé">
+        <select id="village-filter">
+            <option value="">Tous les villages</option>
+        </select>
+        <select id="category-filter">
+            <option value="">Toutes les catégories</option>
+            <option value="recherche">Recherche</option>
+            <option value="retrouve">Retrouvaille</option>
+            <option value="deces">Décès</option>
+            <option value="info">Information</option>
+        </select>
     </div>
 
     <!-- Section d'alerte -->
@@ -146,30 +151,12 @@
         <thead>
             <tr>
                 <th>Heure</th>
-                <th>Ville</th>
+                <th>Village</th>
                 <th>Catégorie</th>
                 <th>Message</th>
             </tr>
         </thead>
         <tbody id="table-body">
-            <tr>
-                <td>16/12/2024 - 08:30</td>
-                <td>Mamoudzou</td>
-                <td><span class="category category-recherche">Personne recherchée</span></td>
-                <td>"Recherche Omar, disparu à Cavani. Contactez le 06 12 34 56 78."</td>
-            </tr>
-            <tr>
-                <td>16/12/2024 - 09:15</td>
-                <td>Koungou</td>
-                <td><span class="category category-info">Information importante</span></td>
-                <td>"Inondations signalées à Koungou. Routes principales bloquées."</td>
-            </tr>
-            <tr>
-                <td>16/12/2024 - 10:00</td>
-                <td>Kawéni</td>
-                <td><span class="category category-retrouve">Personne retrouvée</span></td>
-                <td>"Omar a été retrouvé sain et sauf à Cavani."</td>
-            </tr>
         </tbody>
     </table>
 
@@ -180,16 +167,116 @@
 </footer>
 
 <script>
-    // Barre de recherche fonctionnelle
-    document.getElementById('search').addEventListener('input', function() {
-        const searchTerm = this.value.toLowerCase();
-        const rows = document.querySelectorAll('#table-body tr');
-        
-        rows.forEach(row => {
-            const text = row.textContent.toLowerCase();
-            row.style.display = text.includes(searchTerm) ? '' : 'none';
+    const villages = ["Acoua", "Bambo-Est", "Bambo-Ouest", "Bandraboua", "Bandrele", "Barakani", "Bouéni", "Bouyouni", "Cavani", "Chembenyouba", "Chiconi", "Chirongui", "Choungui", "Coconi", "Combani", "Dapani", "Dembeni", "Dzaoudzi", "Dzoumogné", "Hagnoundrou", "Hajangoua", "Hamjago", "Hamouro", "Handréma", "Iloni", "Kahani", "Kangani", "Kani-Bé", "Kani-Kéli", "Kawéni", "Koungou", "Labattoir", "Longoni", "M'Tsangamouji", "Majicavo-Koropa", "Majicavo-Lamir", "Majiméouni", "Malamani", "Mamoudzou", "Mangajou", "Mbouanatsa", "Mbouini", "Miréréni", "Mliha", "Moinatrindri", "Mramadoudou", "Mréréni", "Mroalé", "Mronabéja", "Mtsahara", "Mtsamoudou", "Mtsangadoua", "Mtsangamboua", "Mtsapéré", "Mtzamboro", "Mzouazia", "Nyambadao", "Ongojou", "Ouangani", "Pamandzi", "Passamainty", "Passi-Kéli", "Poroani", "Sada", "Sohoa", "Trévani", "Tsararano", "Tsimkoura", "Tsingoni", "Tsoundzou 1", "Tsoundzou 2", "Vahibé"];
+    const villageFilter = document.getElementById('village-filter');
+    const categoryFilter = document.getElementById('category-filter');
+    const searchInput = document.getElementById('search');
+    const tableBody = document.getElementById('table-body');
+
+    villages.forEach(village => villageFilter.innerHTML += `<option value="${village}">${village}</option>`);
+
+    const data = [
+        { time: "08:30", village: "Kawéni", category: "Information", message: "Inondation signalée." },
+        { time: "09:00", village: "Koungou", category: "Alerte", message: "Glissement de terrain signalé." },
+        { time: "10:00", village: "Bandraboua", category: "Recherche", message: "Recherche de Fatima signalée par la famille." },
+        { time: "11:15", village: "Chiconi", category: "Retrouvaille", message: "Fatima a été retrouvée." },
+        { time: "12:00", village: "Acoua", category: "Décès", message: "Annonce de décès suite à une inondation." },
+        { time: "08:30", village: "Dembeni", category: "Information", message: "Inondation signalée." },
+        { time: "09:00", village: "Labattoir", category: "Alerte", message: "Glissement de terrain signalé." },
+        { time: "10:00", village: "Mtsahara", category: "Recherche", message: "Recherche de Mohamed signalée par la famille." },
+        { time: "11:15", village: "Miréréni", category: "Retrouvaille", message: "Mohamed a été retrouvé." },
+        { time: "12:00", village: "Hamjago", category: "Décès", message: "Annonce de décès suite à une inondation." },
+        { time: "08:30", village: "Mronabeja", category: "Information", message: "Routes inondées signalées dans le village." },
+        { time: "09:00", village: "Mtsamoudou", category: "Alerte", message: "Éboulement de terrain détecté." },
+        { time: "10:00", village: "Trévani", category: "Recherche", message: "Recherche de familles portées disparues après la crue." },
+        { time: "11:15", village: "Sada", category: "Retrouvaille", message: "Famille retrouvée saine et sauve." },
+        { time: "12:00", village: "Passi-Kéli", category: "Décès", message: "Annonce de décès suite à une montée soudaine des eaux." },
+        { time: "08:30", village: "Pamandzi", category: "Information", message: "Signalement d'un point d'eau potable disponible." },
+        { time: "09:00", village: "Majicavo-Koropa", category: "Alerte", message: "Signalement de fortes pluies persistantes." },
+        { time: "10:00", village: "Handréma", category: "Recherche", message: "Recherche de deux enfants perdus suite aux inondations." },
+        { time: "11:15", village: "Sohoa", category: "Retrouvaille", message: "Les deux enfants ont été retrouvés sains et saufs." },
+        { time: "12:00", village: "Bouéni", category: "Décès", message: "Décès signalé dans le village suite à un éboulement." },
+        { time: "08:30", village: "Iloni", category: "Information", message: "Routes dégagées par les secours." },
+        { time: "09:00", village: "Barakani", category: "Alerte", message: "Alerte d'éboulement de terrain au sud du village." },
+        { time: "10:00", village: "Mramadoudou", category: "Recherche", message: "Appel de recherche pour retrouver un enfant." },
+        { time: "11:15", village: "Mamoudzou", category: "Retrouvaille", message: "L'enfant a été retrouvé sain et sauf." },
+        { time: "12:00", village: "Majicavo-Lamir", category: "Décès", message: "Annonce de décès suite à un éboulement de terrain." },
+        { time: "13:00", village: "Ongojou", category: "Information", message: "Réouverture d'une route principale." },
+        { time: "14:00", village: "Nyambadao", category: "Alerte", message: "Forte montée des eaux sur la route nationale." },
+        { time: "15:00", village: "Poroani", category: "Recherche", message: "Recherche d'une famille signalée disparue." },
+        { time: "16:00", village: "Hagnoundrou", category: "Retrouvaille", message: "Famille retrouvée saine et sauve." },
+        { time: "17:00", village: "Mangajou", category: "Décès", message: "Décès signalé suite à une crue soudaine." },
+        { time: "08:30", village: "Longoni", category: "Information", message: "Point d'eau potable accessible dans le village." },
+        { time: "09:00", village: "Kangani", category: "Alerte", message: "Signalement de fortes pluies persistantes." },
+        { time: "10:00", village: "Hamouro", category: "Recherche", message: "Appel de recherche pour des jumeaux portés disparus." },
+        { time: "11:15", village: "Tsimkoura", category: "Retrouvaille", message: "Les jumeaux portés disparus ont été retrouvés." },
+        { time: "12:00", village: "Kani-Bé", category: "Décès", message: "Annonce de décès d'un habitant du village." },
+        { time: "08:30", village: "Dzoumogné", category: "Information", message: "Coupure d'électricité signalée dans tout le village." },
+        { time: "09:00", village: "Chembenyouba", category: "Alerte", message: "Risque d'éboulement de terrain signalé." },
+        { time: "10:00", village: "Tsingoni", category: "Recherche", message: "Appel de recherche pour une personne âgée." },
+        { time: "11:15", village: "Passamainty", category: "Retrouvaille", message: "La personne âgée recherchée a été retrouvée." },
+        { time: "12:00", village: "M'Tsangamouji", category: "Décès", message: "Décès signalé d'un habitant du village." },
+        { time: "08:30", village: "Mtsangadoua", category: "Information", message: "Routes dégagées par les secours." },
+        { time: "09:00", village: "Mtsapéré", category: "Alerte", message: "Alerte de crue soudaine dans le village." },
+        { time: "10:00", village: "Mtsamboro", category: "Recherche", message: "Appel de recherche pour retrouver un enfant." },
+        { time: "11:15", village: "Mtsahara", category: "Retrouvaille", message: "L'enfant a été retrouvé sain et sauf." },
+        { time: "12:00", village: "Mtsamoudou", category: "Décès", message: "Annonce de décès suite à un éboulement de terrain." },
+        { time: "08:30", village: "Mtsangamboua", category: "Information", message: "Routes dégagées par les secours." },
+        { time: "09:00", village: "Mtsangadoua", category: "Alerte", message: "Alerte de crue soudaine dans le village." },
+        { time: "10:00", village: "Mtsapéré", category: "Recherche", message: "Appel de recherche pour retrouver un enfant." },
+        { time: "11:15", village: "Mtsahara", category: "Retrouvaille", message: "L'enfant a été retrouvé sain et sauf." },
+        { time: "12:00", village: "Mtsamoudou", category: "Décès", message: "Annonce de décès suite à un éboulement de terrain." },
+        { time: "08:30", village: "Mtsangamboua", category: "Information", message: "Routes dégagées par les secours." },
+        { time: "09:00", village: "Mtsangadoua", category: "Alerte", message: "Alerte de crue soudaine dans le village." },
+        { time: "08:45", village: "Kawéni", category: "Alerte", message: "Niveau de l'eau en hausse, vigilance requise." },
+        { time: "09:30", village: "Kawéni", category: "Recherche", message: "Appel à la recherche de deux enfants disparus." },
+        { time: "10:30", village: "Kawéni", category: "Retrouvaille", message: "Les deux enfants ont été retrouvés sains et saufs." },
+        { time: "11:00", village: "Kawéni", category: "Information", message: "Équipe de secours en route pour le village." },
+        { time: "11:30", village: "Kawéni", category: "Décès", message: "Décès signalé suite à un éboulement." },
+        { time: "08:30", village: "Labattoir", category: "Information", message: "Point de distribution d'eau ouvert au centre-ville." },
+        { time: "09:00", village: "Labattoir", category: "Alerte", message: "Chute d'arbres signalée sur la route principale." },
+        { time: "09:30", village: "Labattoir", category: "Recherche", message: "Recherche d'une mère et ses deux enfants." },
+        { time: "10:15", village: "Labattoir", category: "Retrouvaille", message: "La famille a été retrouvée saine et sauve." },
+        { time: "11:00", village: "Labattoir", category: "Décès", message: "Décès signalé d'un habitant du village." },
+        { time: "08:30", village: "Pamandzi", category: "Information", message: "Routes bloquées à cause des chutes d'arbres." },
+        { time: "09:00", village: "Pamandzi", category: "Alerte", message: "Glissement de terrain détecté sur la route de l'école." },
+        { time: "09:30", village: "Pamandzi", category: "Recherche", message: "Appel de recherche d'une personne âgée portée disparue." },
+        { time: "10:15", village: "Pamandzi", category: "Retrouvaille", message: "La personne âgée a été retrouvée." },
+        { time: "11:00", village: "Pamandzi", category: "Décès", message: "Annonce de décès suite à une crue soudaine." },
+        { time: "08:30", village: "Sada", category: "Information", message: "Point de refuge ouvert pour les sinistrés." },
+        { time: "09:00", village: "Sada", category: "Alerte", message: "Pluies intenses signalées, prudence recommandée." },
+        { time: "09:30", village: "Sada", category: "Recherche", message: "Appel de recherche pour une famille de 4 personnes." },
+        { time: "10:15", village: "Sada", category: "Retrouvaille", message: "La famille a été retrouvée saine et sauve." },
+        { time: "11:00", village: "Sada", category: "Décès", message: "Annonce de décès d'un habitant suite aux inondations." },
+        { time: "08:30", village: "Chiconi", category: "Information", message: "Point d'eau potable ouvert pour les habitants." },
+        { time: "09:00", village: "Chiconi", category: "Alerte", message: "Glissement de terrain en cours dans le village." },
+        { time: "09:30", village: "Chiconi", category: "Recherche", message: "Recherche d'une mère et ses deux enfants." },
+        { time: "10:15", village: "Chiconi", category: "Retrouvaille", message: "La mère et les enfants ont été retrouvés." },
+        { time: "11:00", village: "Chiconi", category: "Décès", message: "Décès signalé suite à un éboulement." }
+    ];
+
+    function renderTable() {
+        const searchTerm = searchInput.value.toLowerCase();
+        const selectedVillage = villageFilter.value;
+        const selectedCategory = categoryFilter.value;
+
+        tableBody.innerHTML = '';
+        data.forEach(item => {
+            if ((selectedVillage === '' || item.village === selectedVillage) &&
+                (selectedCategory === '' || item.category.toLowerCase() === selectedCategory) &&
+                (item.message.toLowerCase().includes(searchTerm))) {
+                const row = document.createElement('tr');
+                row.innerHTML = `<td>${item.time}</td><td>${item.village}</td><td>${item.category}</td><td>${item.message}</td>`;
+                tableBody.appendChild(row);
+            }
         });
-    });
+    }
+
+    villageFilter.addEventListener('change', renderTable);
+    categoryFilter.addEventListener('change', renderTable);
+    searchInput.addEventListener('input', renderTable);
+
+    renderTable();
 </script>
 
 </body>
