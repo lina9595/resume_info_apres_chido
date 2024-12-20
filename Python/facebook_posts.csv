@@ -1,0 +1,501 @@
+post_id,from_id,from_name,created_time,message,permalink_url,type,likes_count,comments_count,shares_count
+1,user_80,Utilisateur_15,2024-12-03 01:24:14,Information sur les zones d'évacuation,https://facebook.com/post/1,link,183,3,0
+2,user_100,Utilisateur_49,2024-12-06 07:39:14,Signalement de routes bloquées,https://facebook.com/post/2,video,2,17,28
+3,user_94,Utilisateur_30,2024-11-21 17:00:14,Recherches de familles disparues après la crue,https://facebook.com/post/3,video,274,3,45
+4,user_38,Utilisateur_29,2024-12-09 17:09:14,Recherche de la famille perdue à cause du cyclone,https://facebook.com/post/4,image,417,6,46
+5,user_26,Utilisateur_48,2024-12-10 12:39:14,Chute d'arbres signalée sur la route principale,https://facebook.com/post/5,video,66,8,40
+6,user_81,Utilisateur_44,2024-12-17 13:25:14,Chute d'arbres signalée sur la route principale,https://facebook.com/post/6,video,368,10,6
+7,user_36,Utilisateur_11,2024-12-09 06:36:14,Besoin de vêtements et de couvertures pour les sinistrés,https://facebook.com/post/7,video,393,5,50
+8,user_44,Utilisateur_88,2024-12-05 18:58:14,Signalement de routes bloquées,https://facebook.com/post/8,image,37,14,45
+9,user_68,Utilisateur_100,2024-11-24 23:27:14,Appel de recherche d'enfants disparus,https://facebook.com/post/9,video,338,8,0
+10,user_39,Utilisateur_11,2024-11-24 11:21:14,Point d'eau potable disponible,https://facebook.com/post/10,image,58,15,3
+11,user_89,Utilisateur_31,2024-11-21 11:45:14,Recherches de familles disparues après la crue,https://facebook.com/post/11,text,416,19,23
+12,user_23,Utilisateur_17,2024-11-20 01:51:14,Recherche de la famille perdue à cause du cyclone,https://facebook.com/post/12,link,281,2,35
+13,user_72,Utilisateur_89,2024-11-23 02:31:14,Accès à l'électricité coupé dans plusieurs quartiers,https://facebook.com/post/13,image,45,10,20
+14,user_2,Utilisateur_48,2024-11-30 07:39:14,Équipe de secours en route,https://facebook.com/post/14,link,471,11,36
+15,user_1,Utilisateur_41,2024-12-06 12:40:14,Accès à l'électricité coupé dans plusieurs quartiers,https://facebook.com/post/15,link,410,14,41
+16,user_38,Utilisateur_32,2024-11-24 08:29:14,Point d'eau potable disponible,https://facebook.com/post/16,video,349,7,1
+17,user_20,Utilisateur_22,2024-11-23 00:13:14,Recherches de familles disparues après la crue,https://facebook.com/post/17,link,207,3,39
+18,user_3,Utilisateur_42,2024-11-30 03:06:14,Point de rencontre pour les familles dispersées,https://facebook.com/post/18,link,94,9,26
+19,user_8,Utilisateur_90,2024-12-10 11:23:14,Point de distribution de nourriture ouvert,https://facebook.com/post/19,image,60,1,39
+20,user_4,Utilisateur_15,2024-12-04 14:35:14,Alerte de montée des eaux,https://facebook.com/post/20,image,427,19,9
+21,user_41,Utilisateur_16,2024-12-02 06:25:14,Annonces de personnes retrouvées saines et sauves,https://facebook.com/post/21,image,126,5,6
+22,user_33,Utilisateur_11,2024-12-16 04:17:14,Point de distribution de nourriture ouvert,https://facebook.com/post/22,link,182,8,31
+23,user_28,Utilisateur_69,2024-11-25 12:02:14,Point de distribution de nourriture ouvert,https://facebook.com/post/23,link,477,14,20
+24,user_96,Utilisateur_95,2024-11-28 14:09:14,Signalement de routes bloquées,https://facebook.com/post/24,video,172,13,6
+25,user_48,Utilisateur_30,2024-12-13 16:32:14,Équipe de secours en route,https://facebook.com/post/25,text,15,12,14
+26,user_13,Utilisateur_30,2024-12-15 14:19:14,Point de rencontre pour les familles dispersées,https://facebook.com/post/26,text,25,13,7
+27,user_68,Utilisateur_67,2024-11-25 13:22:14,Point d'eau potable disponible,https://facebook.com/post/27,image,30,2,50
+28,user_95,Utilisateur_57,2024-12-05 07:08:14,Équipe de secours en route,https://facebook.com/post/28,image,92,19,29
+29,user_76,Utilisateur_32,2024-11-26 00:02:14,Équipe de secours en route,https://facebook.com/post/29,image,309,20,20
+30,user_51,Utilisateur_23,2024-12-17 16:58:14,Signalement de routes bloquées,https://facebook.com/post/30,image,176,3,16
+31,user_15,Utilisateur_85,2024-11-26 07:43:14,Équipe de secours en route,https://facebook.com/post/31,image,348,9,50
+32,user_30,Utilisateur_80,2024-11-23 23:00:14,Alerte de montée des eaux,https://facebook.com/post/32,video,347,10,33
+33,user_29,Utilisateur_53,2024-11-30 00:39:14,Mise en place de centres de refuge,https://facebook.com/post/33,image,168,8,3
+34,user_95,Utilisateur_28,2024-12-08 22:23:14,Recherches de familles disparues après la crue,https://facebook.com/post/34,text,422,15,0
+35,user_50,Utilisateur_12,2024-11-18 23:16:14,Risque de glissement de terrain,https://facebook.com/post/35,video,20,2,30
+36,user_21,Utilisateur_19,2024-12-05 20:08:14,Besoin de vêtements et de couvertures pour les sinistrés,https://facebook.com/post/36,link,417,4,17
+37,user_78,Utilisateur_87,2024-11-19 00:47:14,Point de rencontre pour les familles dispersées,https://facebook.com/post/37,text,223,7,37
+38,user_84,Utilisateur_91,2024-11-25 02:05:14,Recherches de familles disparues après la crue,https://facebook.com/post/38,link,22,7,30
+39,user_91,Utilisateur_1,2024-12-10 07:17:14,Recherche de la famille perdue à cause du cyclone,https://facebook.com/post/39,video,312,13,23
+40,user_35,Utilisateur_52,2024-12-12 08:01:14,Point d'eau potable disponible,https://facebook.com/post/40,video,143,18,10
+41,user_94,Utilisateur_69,2024-12-11 10:27:14,Recherche de la famille perdue à cause du cyclone,https://facebook.com/post/41,link,28,11,38
+42,user_21,Utilisateur_92,2024-12-07 07:02:14,Annonces de personnes retrouvées saines et sauves,https://facebook.com/post/42,link,269,12,50
+43,user_10,Utilisateur_6,2024-12-01 21:27:14,Décès signalé suite à un éboulement,https://facebook.com/post/43,link,116,20,37
+44,user_76,Utilisateur_2,2024-12-16 07:26:14,Besoin de vêtements et de couvertures pour les sinistrés,https://facebook.com/post/44,video,51,6,4
+45,user_66,Utilisateur_17,2024-12-08 09:51:14,Point d'eau potable disponible,https://facebook.com/post/45,video,388,4,38
+46,user_58,Utilisateur_66,2024-11-26 09:34:14,Équipe de secours en route,https://facebook.com/post/46,image,2,6,1
+47,user_14,Utilisateur_33,2024-12-19 09:11:14,Décès signalé suite à un éboulement,https://facebook.com/post/47,video,115,11,35
+48,user_46,Utilisateur_82,2024-11-21 20:25:14,Équipe de secours en route,https://facebook.com/post/48,video,356,15,12
+49,user_72,Utilisateur_43,2024-12-04 19:34:14,Point d'eau potable disponible,https://facebook.com/post/49,video,82,15,42
+50,user_98,Utilisateur_16,2024-12-18 22:38:14,Chute d'arbres signalée sur la route principale,https://facebook.com/post/50,link,225,10,11
+51,user_19,Utilisateur_84,2024-12-02 04:54:14,Recherche de la famille perdue à cause du cyclone,https://facebook.com/post/51,video,470,3,21
+52,user_77,Utilisateur_87,2024-11-28 21:00:14,Accès à l'électricité coupé dans plusieurs quartiers,https://facebook.com/post/52,video,291,10,45
+53,user_9,Utilisateur_56,2024-12-18 14:11:14,Information sur les zones d'évacuation,https://facebook.com/post/53,video,358,2,41
+54,user_85,Utilisateur_43,2024-11-18 16:52:14,Décès signalé suite à un éboulement,https://facebook.com/post/54,video,70,14,14
+55,user_13,Utilisateur_5,2024-12-04 10:35:14,Accès à l'électricité coupé dans plusieurs quartiers,https://facebook.com/post/55,link,242,16,3
+56,user_20,Utilisateur_72,2024-11-30 14:28:14,Annonces de personnes retrouvées saines et sauves,https://facebook.com/post/56,video,257,12,31
+57,user_45,Utilisateur_76,2024-12-01 19:44:14,Annonces de personnes retrouvées saines et sauves,https://facebook.com/post/57,image,257,7,19
+58,user_83,Utilisateur_94,2024-11-23 20:57:14,Chute d'arbres signalée sur la route principale,https://facebook.com/post/58,link,152,11,4
+59,user_80,Utilisateur_85,2024-11-18 23:17:14,Point de distribution de nourriture ouvert,https://facebook.com/post/59,text,340,3,15
+60,user_43,Utilisateur_50,2024-11-29 03:42:14,Annonce de réouverture de certaines routes,https://facebook.com/post/60,image,96,1,34
+61,user_67,Utilisateur_97,2024-12-14 20:07:14,Appel à témoins pour retrouver des proches,https://facebook.com/post/61,text,93,6,20
+62,user_75,Utilisateur_26,2024-12-11 07:18:14,Risque de glissement de terrain,https://facebook.com/post/62,video,33,2,47
+63,user_37,Utilisateur_73,2024-12-03 05:36:14,Annonces de personnes retrouvées saines et sauves,https://facebook.com/post/63,video,4,1,2
+64,user_74,Utilisateur_35,2024-12-03 06:12:14,Annonces de personnes retrouvées saines et sauves,https://facebook.com/post/64,link,14,16,37
+65,user_26,Utilisateur_76,2024-12-03 14:27:14,Appel de recherche d'enfants disparus,https://facebook.com/post/65,link,249,6,13
+66,user_65,Utilisateur_14,2024-12-17 22:00:14,Alerte de montée des eaux,https://facebook.com/post/66,video,387,13,28
+67,user_16,Utilisateur_53,2024-12-05 01:48:14,Équipe de secours en route,https://facebook.com/post/67,image,29,1,12
+68,user_64,Utilisateur_49,2024-12-17 18:19:14,Signalement de routes bloquées,https://facebook.com/post/68,link,99,12,9
+69,user_84,Utilisateur_23,2024-11-29 09:02:14,Point de distribution de nourriture ouvert,https://facebook.com/post/69,text,287,5,16
+70,user_83,Utilisateur_60,2024-11-27 23:29:14,Point de distribution de nourriture ouvert,https://facebook.com/post/70,text,61,14,26
+71,user_67,Utilisateur_19,2024-12-03 19:15:14,Recherches de familles disparues après la crue,https://facebook.com/post/71,video,208,6,12
+72,user_74,Utilisateur_99,2024-12-19 08:48:14,Information sur les zones d'évacuation,https://facebook.com/post/72,text,149,15,22
+73,user_19,Utilisateur_49,2024-12-04 16:20:14,Point de rencontre pour les familles dispersées,https://facebook.com/post/73,link,308,8,41
+74,user_45,Utilisateur_58,2024-11-27 02:07:14,Annonce de réouverture de certaines routes,https://facebook.com/post/74,image,163,11,32
+75,user_86,Utilisateur_10,2024-12-03 15:20:14,Signalement de routes bloquées,https://facebook.com/post/75,video,186,2,19
+76,user_69,Utilisateur_78,2024-12-14 00:37:14,Alerte de montée des eaux,https://facebook.com/post/76,text,336,10,35
+77,user_13,Utilisateur_60,2024-11-18 21:41:14,Besoin de vêtements et de couvertures pour les sinistrés,https://facebook.com/post/77,link,205,4,44
+78,user_83,Utilisateur_19,2024-12-09 11:06:14,Point de distribution de nourriture ouvert,https://facebook.com/post/78,video,462,16,30
+79,user_81,Utilisateur_83,2024-11-30 08:20:14,Équipe de secours en route,https://facebook.com/post/79,text,474,17,2
+80,user_68,Utilisateur_67,2024-12-08 21:01:14,Appel à témoins pour retrouver des proches,https://facebook.com/post/80,text,474,12,20
+81,user_16,Utilisateur_72,2024-12-01 15:29:14,Appel de recherche d'enfants disparus,https://facebook.com/post/81,text,55,2,46
+82,user_67,Utilisateur_61,2024-11-30 13:28:14,Signalement de routes bloquées,https://facebook.com/post/82,video,67,7,30
+83,user_72,Utilisateur_12,2024-11-30 21:21:14,Équipe de secours en route,https://facebook.com/post/83,video,181,17,30
+84,user_78,Utilisateur_12,2024-12-18 08:59:14,Besoin urgent d'aide pour les sinistrés,https://facebook.com/post/84,image,248,0,35
+85,user_49,Utilisateur_19,2024-12-10 17:52:14,Besoin urgent d'aide pour les sinistrés,https://facebook.com/post/85,image,31,10,24
+86,user_81,Utilisateur_89,2024-11-25 08:50:14,Équipe de secours en route,https://facebook.com/post/86,video,63,3,9
+87,user_6,Utilisateur_99,2024-12-13 21:53:14,Recherche de la famille perdue à cause du cyclone,https://facebook.com/post/87,text,430,15,48
+88,user_80,Utilisateur_47,2024-12-18 20:06:14,Recherches de familles disparues après la crue,https://facebook.com/post/88,video,352,1,41
+89,user_71,Utilisateur_53,2024-11-19 01:25:14,Mise en place de centres de refuge,https://facebook.com/post/89,link,378,19,36
+90,user_61,Utilisateur_26,2024-11-21 10:44:14,Alerte de montée des eaux,https://facebook.com/post/90,image,401,10,23
+91,user_81,Utilisateur_36,2024-12-15 12:11:14,Risque de glissement de terrain,https://facebook.com/post/91,image,363,4,0
+92,user_48,Utilisateur_60,2024-12-16 23:13:14,Recherche de la famille perdue à cause du cyclone,https://facebook.com/post/92,image,216,10,34
+93,user_5,Utilisateur_39,2024-12-18 15:02:14,Signalement de routes bloquées,https://facebook.com/post/93,video,231,20,24
+94,user_93,Utilisateur_58,2024-12-15 20:16:14,Point de distribution de nourriture ouvert,https://facebook.com/post/94,video,466,13,37
+95,user_90,Utilisateur_93,2024-11-28 06:40:14,Alerte de montée des eaux,https://facebook.com/post/95,link,487,14,17
+96,user_24,Utilisateur_93,2024-12-02 15:39:14,Signalement de routes bloquées,https://facebook.com/post/96,link,213,8,13
+97,user_50,Utilisateur_54,2024-11-19 06:33:14,Recherche de la famille perdue à cause du cyclone,https://facebook.com/post/97,image,268,11,22
+98,user_54,Utilisateur_37,2024-12-08 07:40:14,Point d'eau potable disponible,https://facebook.com/post/98,video,300,2,21
+99,user_23,Utilisateur_99,2024-11-25 12:37:14,Accès à l'électricité coupé dans plusieurs quartiers,https://facebook.com/post/99,link,83,18,28
+100,user_74,Utilisateur_16,2024-11-21 15:39:14,Besoin de vêtements et de couvertures pour les sinistrés,https://facebook.com/post/100,image,424,13,36
+101,user_33,Utilisateur_91,2024-11-25 08:08:14,Appel à témoins pour retrouver des proches,https://facebook.com/post/101,image,313,9,42
+102,user_98,Utilisateur_100,2024-12-02 21:37:14,Point de distribution de nourriture ouvert,https://facebook.com/post/102,link,276,9,44
+103,user_14,Utilisateur_36,2024-12-09 11:54:14,Point de distribution de nourriture ouvert,https://facebook.com/post/103,text,335,1,38
+104,user_32,Utilisateur_19,2024-12-01 22:34:14,Recherches de familles disparues après la crue,https://facebook.com/post/104,link,192,15,38
+105,user_95,Utilisateur_44,2024-12-04 03:28:14,Point de distribution de nourriture ouvert,https://facebook.com/post/105,image,242,13,16
+106,user_35,Utilisateur_41,2024-12-06 19:12:14,Accès à l'électricité coupé dans plusieurs quartiers,https://facebook.com/post/106,video,470,18,33
+107,user_35,Utilisateur_29,2024-11-20 18:36:14,Appel de recherche d'enfants disparus,https://facebook.com/post/107,text,394,4,26
+108,user_73,Utilisateur_69,2024-11-20 23:26:14,Chute d'arbres signalée sur la route principale,https://facebook.com/post/108,video,279,5,10
+109,user_75,Utilisateur_83,2024-12-03 12:49:14,Appel de recherche d'enfants disparus,https://facebook.com/post/109,image,270,8,26
+110,user_82,Utilisateur_90,2024-11-28 15:28:14,Alerte de montée des eaux,https://facebook.com/post/110,video,78,4,13
+111,user_90,Utilisateur_19,2024-12-01 02:28:14,Appel à témoins pour retrouver des proches,https://facebook.com/post/111,image,110,14,1
+112,user_65,Utilisateur_49,2024-12-18 00:46:14,Équipe de secours en route,https://facebook.com/post/112,image,2,19,36
+113,user_90,Utilisateur_40,2024-11-23 11:06:14,Recherches de familles disparues après la crue,https://facebook.com/post/113,video,500,20,10
+114,user_43,Utilisateur_19,2024-11-22 01:56:14,Équipe de secours en route,https://facebook.com/post/114,text,458,11,31
+115,user_80,Utilisateur_16,2024-11-24 22:20:14,Annonce de réouverture de certaines routes,https://facebook.com/post/115,link,158,5,44
+116,user_83,Utilisateur_39,2024-11-22 20:46:14,Annonces de personnes retrouvées saines et sauves,https://facebook.com/post/116,link,459,14,6
+117,user_69,Utilisateur_85,2024-11-22 22:04:14,Alerte de montée des eaux,https://facebook.com/post/117,image,159,8,22
+118,user_69,Utilisateur_36,2024-11-30 06:33:14,Appel à témoins pour retrouver des proches,https://facebook.com/post/118,link,222,12,7
+119,user_54,Utilisateur_41,2024-11-22 13:53:14,Mise en place de centres de refuge,https://facebook.com/post/119,video,163,11,38
+120,user_10,Utilisateur_40,2024-11-29 13:10:14,Chute d'arbres signalée sur la route principale,https://facebook.com/post/120,image,361,3,8
+121,user_86,Utilisateur_52,2024-11-20 11:06:14,Appel à témoins pour retrouver des proches,https://facebook.com/post/121,video,495,5,1
+122,user_93,Utilisateur_47,2024-11-20 13:07:14,Décès signalé suite à un éboulement,https://facebook.com/post/122,link,304,9,41
+123,user_76,Utilisateur_17,2024-11-23 20:17:14,Annonce de réouverture de certaines routes,https://facebook.com/post/123,video,237,20,10
+124,user_53,Utilisateur_64,2024-11-29 04:49:14,Recherches de familles disparues après la crue,https://facebook.com/post/124,link,208,2,11
+125,user_4,Utilisateur_85,2024-12-07 09:23:14,Équipe de secours en route,https://facebook.com/post/125,text,132,15,7
+126,user_94,Utilisateur_55,2024-11-30 02:25:14,Signalement de routes bloquées,https://facebook.com/post/126,text,306,14,49
+127,user_17,Utilisateur_9,2024-12-03 08:30:14,Chute d'arbres signalée sur la route principale,https://facebook.com/post/127,text,473,14,36
+128,user_46,Utilisateur_45,2024-12-18 11:21:14,Annonces de personnes retrouvées saines et sauves,https://facebook.com/post/128,text,107,10,28
+129,user_43,Utilisateur_24,2024-12-19 13:27:14,Décès signalé suite à un éboulement,https://facebook.com/post/129,link,44,13,5
+130,user_85,Utilisateur_52,2024-11-30 22:25:14,Point d'eau potable disponible,https://facebook.com/post/130,video,458,4,40
+131,user_46,Utilisateur_51,2024-12-03 10:26:14,Appel de recherche d'enfants disparus,https://facebook.com/post/131,text,348,18,11
+132,user_75,Utilisateur_5,2024-12-07 00:25:14,Annonce de réouverture de certaines routes,https://facebook.com/post/132,video,487,0,21
+133,user_31,Utilisateur_27,2024-12-17 00:01:14,Chute d'arbres signalée sur la route principale,https://facebook.com/post/133,text,361,15,23
+134,user_84,Utilisateur_71,2024-11-19 22:54:14,Appel de recherche d'enfants disparus,https://facebook.com/post/134,link,197,16,50
+135,user_63,Utilisateur_53,2024-12-01 09:03:14,Signalement de routes bloquées,https://facebook.com/post/135,text,243,4,39
+136,user_2,Utilisateur_46,2024-11-22 02:05:14,Mise en place de centres de refuge,https://facebook.com/post/136,link,264,12,44
+137,user_21,Utilisateur_59,2024-12-15 03:23:14,Information sur les zones d'évacuation,https://facebook.com/post/137,video,368,3,22
+138,user_51,Utilisateur_5,2024-11-25 14:07:14,Équipe de secours en route,https://facebook.com/post/138,link,360,7,33
+139,user_51,Utilisateur_44,2024-11-27 17:54:14,Décès signalé suite à un éboulement,https://facebook.com/post/139,text,389,10,41
+140,user_28,Utilisateur_25,2024-12-10 04:50:14,Alerte de montée des eaux,https://facebook.com/post/140,image,143,10,6
+141,user_69,Utilisateur_29,2024-12-04 18:34:14,Besoin urgent d'aide pour les sinistrés,https://facebook.com/post/141,text,127,11,20
+142,user_18,Utilisateur_87,2024-12-17 23:45:14,Annonce de réouverture de certaines routes,https://facebook.com/post/142,image,104,17,9
+143,user_9,Utilisateur_29,2024-12-05 22:55:14,Appel à témoins pour retrouver des proches,https://facebook.com/post/143,video,320,9,13
+144,user_10,Utilisateur_24,2024-12-16 02:50:14,Risque de glissement de terrain,https://facebook.com/post/144,image,298,20,1
+145,user_48,Utilisateur_85,2024-11-24 10:30:14,Mise en place de centres de refuge,https://facebook.com/post/145,text,410,1,23
+146,user_35,Utilisateur_80,2024-11-29 21:26:14,Recherches de familles disparues après la crue,https://facebook.com/post/146,link,346,15,26
+147,user_81,Utilisateur_66,2024-12-14 09:46:14,Annonce de réouverture de certaines routes,https://facebook.com/post/147,video,27,15,6
+148,user_72,Utilisateur_69,2024-11-29 20:14:14,Chute d'arbres signalée sur la route principale,https://facebook.com/post/148,video,454,19,25
+149,user_88,Utilisateur_43,2024-12-17 13:51:14,Accès à l'électricité coupé dans plusieurs quartiers,https://facebook.com/post/149,image,72,2,13
+150,user_67,Utilisateur_39,2024-12-12 02:55:14,Besoin urgent d'aide pour les sinistrés,https://facebook.com/post/150,link,132,18,42
+151,user_55,Utilisateur_41,2024-11-27 07:53:14,Annonces de personnes retrouvées saines et sauves,https://facebook.com/post/151,video,350,3,41
+152,user_2,Utilisateur_75,2024-12-16 02:33:14,Alerte de montée des eaux,https://facebook.com/post/152,link,359,13,41
+153,user_46,Utilisateur_87,2024-12-03 20:53:14,Signalement de routes bloquées,https://facebook.com/post/153,video,222,13,4
+154,user_99,Utilisateur_51,2024-11-21 02:42:14,Point de rencontre pour les familles dispersées,https://facebook.com/post/154,text,369,14,29
+155,user_61,Utilisateur_59,2024-12-06 03:41:14,Décès signalé suite à un éboulement,https://facebook.com/post/155,image,454,2,20
+156,user_26,Utilisateur_68,2024-11-19 15:48:14,Recherches de familles disparues après la crue,https://facebook.com/post/156,image,165,15,18
+157,user_20,Utilisateur_76,2024-11-19 18:02:14,Besoin de vêtements et de couvertures pour les sinistrés,https://facebook.com/post/157,video,370,4,47
+158,user_38,Utilisateur_16,2024-11-27 10:09:14,Point de distribution de nourriture ouvert,https://facebook.com/post/158,video,95,4,14
+159,user_55,Utilisateur_39,2024-12-12 08:13:14,Besoin de vêtements et de couvertures pour les sinistrés,https://facebook.com/post/159,text,225,11,8
+160,user_33,Utilisateur_53,2024-11-24 15:00:14,Point d'eau potable disponible,https://facebook.com/post/160,video,481,20,40
+161,user_78,Utilisateur_88,2024-12-17 21:37:14,Point de distribution de nourriture ouvert,https://facebook.com/post/161,link,136,4,43
+162,user_89,Utilisateur_47,2024-12-18 11:30:14,Mise en place de centres de refuge,https://facebook.com/post/162,image,180,6,41
+163,user_33,Utilisateur_87,2024-12-01 09:14:14,Chute d'arbres signalée sur la route principale,https://facebook.com/post/163,video,108,14,8
+164,user_60,Utilisateur_24,2024-11-22 03:27:14,Information sur les zones d'évacuation,https://facebook.com/post/164,image,116,18,37
+165,user_66,Utilisateur_47,2024-11-29 16:48:14,Recherche de la famille perdue à cause du cyclone,https://facebook.com/post/165,text,313,11,22
+166,user_92,Utilisateur_77,2024-12-10 21:29:14,Information sur les zones d'évacuation,https://facebook.com/post/166,link,278,16,36
+167,user_80,Utilisateur_14,2024-12-17 18:00:14,Information sur les zones d'évacuation,https://facebook.com/post/167,link,280,16,5
+168,user_79,Utilisateur_8,2024-11-20 22:44:14,Mise en place de centres de refuge,https://facebook.com/post/168,image,330,16,4
+169,user_35,Utilisateur_20,2024-12-07 10:13:14,Risque de glissement de terrain,https://facebook.com/post/169,text,4,9,30
+170,user_22,Utilisateur_90,2024-12-16 11:44:14,Point de rencontre pour les familles dispersées,https://facebook.com/post/170,image,286,5,36
+171,user_45,Utilisateur_84,2024-12-01 07:15:14,Annonces de personnes retrouvées saines et sauves,https://facebook.com/post/171,text,294,16,27
+172,user_54,Utilisateur_21,2024-12-01 10:13:14,Besoin de vêtements et de couvertures pour les sinistrés,https://facebook.com/post/172,image,21,11,42
+173,user_65,Utilisateur_95,2024-12-19 10:36:14,Point de rencontre pour les familles dispersées,https://facebook.com/post/173,video,115,0,35
+174,user_76,Utilisateur_69,2024-11-30 05:35:14,Point de rencontre pour les familles dispersées,https://facebook.com/post/174,image,452,0,36
+175,user_54,Utilisateur_36,2024-11-19 02:51:14,Besoin de vêtements et de couvertures pour les sinistrés,https://facebook.com/post/175,image,462,7,21
+176,user_45,Utilisateur_30,2024-11-27 17:29:14,Annonce de réouverture de certaines routes,https://facebook.com/post/176,image,471,14,49
+177,user_39,Utilisateur_20,2024-12-10 04:01:14,Mise en place de centres de refuge,https://facebook.com/post/177,video,371,13,9
+178,user_54,Utilisateur_28,2024-11-19 11:44:14,Risque de glissement de terrain,https://facebook.com/post/178,link,314,6,33
+179,user_66,Utilisateur_13,2024-11-30 06:49:14,Signalement de routes bloquées,https://facebook.com/post/179,link,335,5,35
+180,user_71,Utilisateur_4,2024-11-18 18:03:14,Chute d'arbres signalée sur la route principale,https://facebook.com/post/180,video,293,11,14
+181,user_87,Utilisateur_21,2024-12-13 04:35:14,Risque de glissement de terrain,https://facebook.com/post/181,link,102,5,1
+182,user_81,Utilisateur_14,2024-12-08 09:59:14,Point d'eau potable disponible,https://facebook.com/post/182,text,458,15,48
+183,user_72,Utilisateur_71,2024-11-24 13:29:14,Information sur les zones d'évacuation,https://facebook.com/post/183,image,464,6,13
+184,user_58,Utilisateur_37,2024-12-08 03:53:14,Accès à l'électricité coupé dans plusieurs quartiers,https://facebook.com/post/184,text,295,14,18
+185,user_38,Utilisateur_22,2024-11-19 15:02:14,Besoin urgent d'aide pour les sinistrés,https://facebook.com/post/185,link,440,18,12
+186,user_97,Utilisateur_56,2024-11-29 07:35:14,Signalement de routes bloquées,https://facebook.com/post/186,image,224,8,29
+187,user_41,Utilisateur_75,2024-12-11 23:32:14,Accès à l'électricité coupé dans plusieurs quartiers,https://facebook.com/post/187,link,76,20,33
+188,user_15,Utilisateur_55,2024-11-19 02:17:14,Point de distribution de nourriture ouvert,https://facebook.com/post/188,link,256,8,40
+189,user_66,Utilisateur_52,2024-11-27 07:54:14,Point de rencontre pour les familles dispersées,https://facebook.com/post/189,link,8,19,45
+190,user_15,Utilisateur_14,2024-11-22 04:28:14,Chute d'arbres signalée sur la route principale,https://facebook.com/post/190,image,350,14,40
+191,user_94,Utilisateur_78,2024-11-19 06:40:14,Annonce de réouverture de certaines routes,https://facebook.com/post/191,video,325,12,50
+192,user_70,Utilisateur_4,2024-12-05 09:17:14,Annonce de réouverture de certaines routes,https://facebook.com/post/192,text,158,1,0
+193,user_21,Utilisateur_10,2024-12-16 09:27:14,Appel à témoins pour retrouver des proches,https://facebook.com/post/193,image,416,5,15
+194,user_95,Utilisateur_22,2024-12-16 16:23:14,Risque de glissement de terrain,https://facebook.com/post/194,link,22,19,5
+195,user_34,Utilisateur_33,2024-12-06 08:24:14,Équipe de secours en route,https://facebook.com/post/195,link,410,1,21
+196,user_59,Utilisateur_72,2024-12-16 15:59:14,Risque de glissement de terrain,https://facebook.com/post/196,image,105,8,12
+197,user_91,Utilisateur_37,2024-12-05 07:26:14,Appel de recherche d'enfants disparus,https://facebook.com/post/197,text,354,4,16
+198,user_99,Utilisateur_97,2024-12-19 12:38:14,Appel de recherche d'enfants disparus,https://facebook.com/post/198,link,372,18,17
+199,user_86,Utilisateur_78,2024-12-18 03:21:14,Décès signalé suite à un éboulement,https://facebook.com/post/199,link,217,3,27
+200,user_25,Utilisateur_4,2024-12-01 11:07:14,Besoin urgent d'aide pour les sinistrés,https://facebook.com/post/200,link,64,2,18
+201,user_34,Utilisateur_50,2024-11-19 13:07:14,Chute d'arbres signalée sur la route principale,https://facebook.com/post/201,image,97,8,25
+202,user_54,Utilisateur_34,2024-11-26 22:49:14,Information sur les zones d'évacuation,https://facebook.com/post/202,video,254,20,48
+203,user_4,Utilisateur_98,2024-12-13 11:29:14,Accès à l'électricité coupé dans plusieurs quartiers,https://facebook.com/post/203,video,307,14,9
+204,user_16,Utilisateur_98,2024-11-19 07:59:14,Chute d'arbres signalée sur la route principale,https://facebook.com/post/204,image,175,2,4
+205,user_20,Utilisateur_74,2024-12-08 05:08:14,Chute d'arbres signalée sur la route principale,https://facebook.com/post/205,link,39,5,42
+206,user_76,Utilisateur_4,2024-11-21 07:46:14,Appel de recherche d'enfants disparus,https://facebook.com/post/206,link,338,13,30
+207,user_80,Utilisateur_93,2024-11-19 05:09:14,Alerte de montée des eaux,https://facebook.com/post/207,video,238,11,27
+208,user_21,Utilisateur_81,2024-12-10 11:48:14,Recherches de familles disparues après la crue,https://facebook.com/post/208,image,497,18,42
+209,user_73,Utilisateur_53,2024-11-26 18:29:14,Besoin urgent d'aide pour les sinistrés,https://facebook.com/post/209,link,176,19,36
+210,user_26,Utilisateur_99,2024-12-02 10:03:14,Alerte de montée des eaux,https://facebook.com/post/210,link,45,20,20
+211,user_63,Utilisateur_56,2024-11-20 19:52:14,Signalement de routes bloquées,https://facebook.com/post/211,image,60,19,31
+212,user_17,Utilisateur_54,2024-12-11 03:53:14,Décès signalé suite à un éboulement,https://facebook.com/post/212,image,460,15,14
+213,user_6,Utilisateur_92,2024-12-13 23:13:14,Information sur les zones d'évacuation,https://facebook.com/post/213,link,357,4,26
+214,user_51,Utilisateur_95,2024-11-29 05:30:14,Information sur les zones d'évacuation,https://facebook.com/post/214,text,96,1,0
+215,user_14,Utilisateur_60,2024-12-18 15:15:14,Chute d'arbres signalée sur la route principale,https://facebook.com/post/215,image,251,3,37
+216,user_55,Utilisateur_17,2024-12-03 21:52:14,Accès à l'électricité coupé dans plusieurs quartiers,https://facebook.com/post/216,video,196,0,36
+217,user_11,Utilisateur_45,2024-12-16 19:16:14,Accès à l'électricité coupé dans plusieurs quartiers,https://facebook.com/post/217,image,436,14,3
+218,user_31,Utilisateur_57,2024-12-17 06:34:14,Point de distribution de nourriture ouvert,https://facebook.com/post/218,text,479,17,48
+219,user_8,Utilisateur_74,2024-12-12 17:52:14,Annonces de personnes retrouvées saines et sauves,https://facebook.com/post/219,text,81,6,42
+220,user_78,Utilisateur_47,2024-11-30 00:34:14,Recherches de familles disparues après la crue,https://facebook.com/post/220,video,39,12,14
+221,user_48,Utilisateur_93,2024-11-25 21:54:14,Recherche de la famille perdue à cause du cyclone,https://facebook.com/post/221,link,187,14,28
+222,user_85,Utilisateur_83,2024-12-16 10:13:14,Accès à l'électricité coupé dans plusieurs quartiers,https://facebook.com/post/222,image,220,5,20
+223,user_30,Utilisateur_33,2024-12-16 03:29:14,Annonce de réouverture de certaines routes,https://facebook.com/post/223,image,397,14,26
+224,user_59,Utilisateur_71,2024-11-21 21:17:14,Recherches de familles disparues après la crue,https://facebook.com/post/224,image,223,8,26
+225,user_54,Utilisateur_26,2024-11-19 15:24:14,Chute d'arbres signalée sur la route principale,https://facebook.com/post/225,video,454,7,44
+226,user_35,Utilisateur_55,2024-11-27 21:02:14,Équipe de secours en route,https://facebook.com/post/226,image,92,16,9
+227,user_93,Utilisateur_55,2024-12-10 21:42:14,Décès signalé suite à un éboulement,https://facebook.com/post/227,text,194,8,34
+228,user_93,Utilisateur_19,2024-11-28 06:54:14,Risque de glissement de terrain,https://facebook.com/post/228,image,440,18,36
+229,user_83,Utilisateur_93,2024-11-29 16:45:14,Chute d'arbres signalée sur la route principale,https://facebook.com/post/229,image,75,13,43
+230,user_26,Utilisateur_98,2024-12-08 00:13:14,Information sur les zones d'évacuation,https://facebook.com/post/230,link,324,20,47
+231,user_12,Utilisateur_12,2024-11-27 09:06:14,Accès à l'électricité coupé dans plusieurs quartiers,https://facebook.com/post/231,link,391,4,27
+232,user_10,Utilisateur_29,2024-12-11 03:03:14,Signalement de routes bloquées,https://facebook.com/post/232,text,248,18,24
+233,user_77,Utilisateur_39,2024-11-26 00:43:14,Besoin urgent d'aide pour les sinistrés,https://facebook.com/post/233,link,372,1,35
+234,user_35,Utilisateur_100,2024-12-08 23:22:14,Besoin urgent d'aide pour les sinistrés,https://facebook.com/post/234,text,235,1,27
+235,user_18,Utilisateur_40,2024-12-03 14:05:14,Besoin urgent d'aide pour les sinistrés,https://facebook.com/post/235,image,329,17,41
+236,user_78,Utilisateur_29,2024-12-07 05:59:14,Annonces de personnes retrouvées saines et sauves,https://facebook.com/post/236,video,314,7,6
+237,user_52,Utilisateur_64,2024-12-06 23:25:14,Mise en place de centres de refuge,https://facebook.com/post/237,video,399,1,1
+238,user_27,Utilisateur_82,2024-12-16 16:53:14,Risque de glissement de terrain,https://facebook.com/post/238,text,59,16,3
+239,user_24,Utilisateur_53,2024-12-13 19:25:14,Signalement de routes bloquées,https://facebook.com/post/239,link,312,17,21
+240,user_13,Utilisateur_75,2024-11-28 00:30:14,Besoin urgent d'aide pour les sinistrés,https://facebook.com/post/240,image,334,10,10
+241,user_49,Utilisateur_55,2024-11-29 06:37:14,Annonce de réouverture de certaines routes,https://facebook.com/post/241,text,29,7,35
+242,user_44,Utilisateur_82,2024-11-21 00:15:14,Alerte de montée des eaux,https://facebook.com/post/242,text,434,1,16
+243,user_53,Utilisateur_82,2024-12-04 08:28:14,Équipe de secours en route,https://facebook.com/post/243,link,378,19,40
+244,user_38,Utilisateur_50,2024-11-24 13:35:14,Annonces de personnes retrouvées saines et sauves,https://facebook.com/post/244,text,28,2,46
+245,user_37,Utilisateur_35,2024-12-06 06:11:14,Équipe de secours en route,https://facebook.com/post/245,link,4,15,16
+246,user_64,Utilisateur_73,2024-12-01 00:02:14,Besoin de vêtements et de couvertures pour les sinistrés,https://facebook.com/post/246,image,263,4,45
+247,user_18,Utilisateur_12,2024-11-28 23:12:14,Point de distribution de nourriture ouvert,https://facebook.com/post/247,link,459,5,19
+248,user_42,Utilisateur_58,2024-12-11 02:32:14,Risque de glissement de terrain,https://facebook.com/post/248,link,386,11,9
+249,user_4,Utilisateur_18,2024-12-10 12:43:14,Appel de recherche d'enfants disparus,https://facebook.com/post/249,video,350,1,35
+250,user_11,Utilisateur_6,2024-11-24 05:18:14,Annonce de réouverture de certaines routes,https://facebook.com/post/250,link,348,8,31
+251,user_73,Utilisateur_92,2024-11-24 05:25:14,Chute d'arbres signalée sur la route principale,https://facebook.com/post/251,link,467,10,3
+252,user_61,Utilisateur_54,2024-12-05 23:19:14,Recherches de familles disparues après la crue,https://facebook.com/post/252,text,124,3,30
+253,user_64,Utilisateur_18,2024-12-03 06:29:14,Mise en place de centres de refuge,https://facebook.com/post/253,image,438,20,17
+254,user_30,Utilisateur_66,2024-12-10 09:40:14,Décès signalé suite à un éboulement,https://facebook.com/post/254,video,106,8,41
+255,user_85,Utilisateur_12,2024-12-17 22:53:14,Équipe de secours en route,https://facebook.com/post/255,text,11,4,34
+256,user_60,Utilisateur_8,2024-12-01 19:45:14,Point de distribution de nourriture ouvert,https://facebook.com/post/256,image,210,10,16
+257,user_49,Utilisateur_6,2024-11-24 01:28:14,Appel à témoins pour retrouver des proches,https://facebook.com/post/257,video,469,4,29
+258,user_18,Utilisateur_6,2024-12-17 01:56:14,Mise en place de centres de refuge,https://facebook.com/post/258,video,283,6,41
+259,user_90,Utilisateur_24,2024-12-05 06:23:14,Appel à témoins pour retrouver des proches,https://facebook.com/post/259,link,489,17,30
+260,user_16,Utilisateur_53,2024-11-29 08:08:14,Point de rencontre pour les familles dispersées,https://facebook.com/post/260,link,297,1,39
+261,user_86,Utilisateur_23,2024-12-18 23:40:14,Équipe de secours en route,https://facebook.com/post/261,image,2,14,38
+262,user_59,Utilisateur_65,2024-12-13 03:07:14,Signalement de routes bloquées,https://facebook.com/post/262,video,455,17,41
+263,user_48,Utilisateur_68,2024-12-08 05:43:14,Recherche de la famille perdue à cause du cyclone,https://facebook.com/post/263,video,394,6,30
+264,user_62,Utilisateur_21,2024-11-28 03:08:14,Appel de recherche d'enfants disparus,https://facebook.com/post/264,link,438,20,12
+265,user_100,Utilisateur_43,2024-12-12 03:31:14,Recherches de familles disparues après la crue,https://facebook.com/post/265,image,157,10,19
+266,user_35,Utilisateur_49,2024-12-15 16:22:14,Point de distribution de nourriture ouvert,https://facebook.com/post/266,video,102,18,40
+267,user_47,Utilisateur_98,2024-12-02 22:12:14,Recherche de la famille perdue à cause du cyclone,https://facebook.com/post/267,link,497,5,27
+268,user_49,Utilisateur_59,2024-12-19 10:25:14,Annonces de personnes retrouvées saines et sauves,https://facebook.com/post/268,video,498,0,42
+269,user_95,Utilisateur_12,2024-12-14 04:47:14,Accès à l'électricité coupé dans plusieurs quartiers,https://facebook.com/post/269,text,161,6,16
+270,user_35,Utilisateur_23,2024-11-21 20:51:14,Annonces de personnes retrouvées saines et sauves,https://facebook.com/post/270,image,425,17,8
+271,user_63,Utilisateur_7,2024-11-24 07:22:14,Décès signalé suite à un éboulement,https://facebook.com/post/271,link,382,2,33
+272,user_34,Utilisateur_73,2024-12-16 09:34:14,Risque de glissement de terrain,https://facebook.com/post/272,video,131,5,18
+273,user_57,Utilisateur_20,2024-12-13 04:56:14,Annonces de personnes retrouvées saines et sauves,https://facebook.com/post/273,text,232,7,9
+274,user_71,Utilisateur_57,2024-11-23 05:49:14,Point de rencontre pour les familles dispersées,https://facebook.com/post/274,video,385,3,18
+275,user_2,Utilisateur_51,2024-12-14 17:48:14,Besoin urgent d'aide pour les sinistrés,https://facebook.com/post/275,link,417,12,10
+276,user_5,Utilisateur_59,2024-12-16 19:22:14,Point de distribution de nourriture ouvert,https://facebook.com/post/276,text,390,15,32
+277,user_59,Utilisateur_33,2024-12-01 23:06:14,Recherche de la famille perdue à cause du cyclone,https://facebook.com/post/277,image,4,16,27
+278,user_8,Utilisateur_29,2024-12-13 23:23:14,Appel de recherche d'enfants disparus,https://facebook.com/post/278,image,308,6,11
+279,user_46,Utilisateur_60,2024-12-10 07:03:14,Point de distribution de nourriture ouvert,https://facebook.com/post/279,text,377,5,13
+280,user_1,Utilisateur_81,2024-11-28 17:14:14,Annonce de réouverture de certaines routes,https://facebook.com/post/280,image,265,17,38
+281,user_99,Utilisateur_5,2024-12-12 11:29:14,Signalement de routes bloquées,https://facebook.com/post/281,link,92,4,1
+282,user_28,Utilisateur_100,2024-11-29 15:19:14,Besoin urgent d'aide pour les sinistrés,https://facebook.com/post/282,text,350,6,0
+283,user_72,Utilisateur_63,2024-11-27 05:33:14,Information sur les zones d'évacuation,https://facebook.com/post/283,text,468,9,19
+284,user_47,Utilisateur_92,2024-12-02 05:46:14,Décès signalé suite à un éboulement,https://facebook.com/post/284,video,50,12,27
+285,user_54,Utilisateur_84,2024-12-05 06:41:14,Accès à l'électricité coupé dans plusieurs quartiers,https://facebook.com/post/285,text,389,3,32
+286,user_30,Utilisateur_92,2024-12-10 01:14:14,Point de distribution de nourriture ouvert,https://facebook.com/post/286,image,48,6,39
+287,user_3,Utilisateur_47,2024-12-19 11:16:14,Alerte de montée des eaux,https://facebook.com/post/287,image,170,4,6
+288,user_4,Utilisateur_89,2024-12-16 11:29:14,Mise en place de centres de refuge,https://facebook.com/post/288,image,176,16,24
+289,user_2,Utilisateur_100,2024-12-13 22:50:14,Chute d'arbres signalée sur la route principale,https://facebook.com/post/289,text,496,9,24
+290,user_60,Utilisateur_90,2024-11-25 12:37:14,Décès signalé suite à un éboulement,https://facebook.com/post/290,text,441,12,31
+291,user_42,Utilisateur_75,2024-11-28 05:20:14,Alerte de montée des eaux,https://facebook.com/post/291,image,162,5,49
+292,user_48,Utilisateur_82,2024-12-12 21:40:14,Accès à l'électricité coupé dans plusieurs quartiers,https://facebook.com/post/292,text,345,14,1
+293,user_14,Utilisateur_6,2024-11-25 23:44:14,Mise en place de centres de refuge,https://facebook.com/post/293,video,129,8,8
+294,user_19,Utilisateur_32,2024-11-24 14:27:14,Chute d'arbres signalée sur la route principale,https://facebook.com/post/294,image,144,9,2
+295,user_41,Utilisateur_44,2024-11-19 17:06:14,Décès signalé suite à un éboulement,https://facebook.com/post/295,text,176,3,24
+296,user_8,Utilisateur_17,2024-12-11 20:38:14,Mise en place de centres de refuge,https://facebook.com/post/296,video,389,0,7
+297,user_6,Utilisateur_46,2024-12-11 04:28:14,Point d'eau potable disponible,https://facebook.com/post/297,link,247,4,25
+298,user_68,Utilisateur_49,2024-12-19 05:30:14,Annonces de personnes retrouvées saines et sauves,https://facebook.com/post/298,image,305,14,42
+299,user_45,Utilisateur_15,2024-12-05 14:07:14,Équipe de secours en route,https://facebook.com/post/299,text,43,5,50
+300,user_98,Utilisateur_18,2024-12-07 10:59:14,Annonce de réouverture de certaines routes,https://facebook.com/post/300,video,242,18,19
+301,user_94,Utilisateur_40,2024-12-13 02:17:14,Point de distribution de nourriture ouvert,https://facebook.com/post/301,link,91,3,42
+302,user_65,Utilisateur_17,2024-12-04 21:57:14,Alerte de montée des eaux,https://facebook.com/post/302,text,209,3,31
+303,user_18,Utilisateur_37,2024-12-13 15:50:14,Signalement de routes bloquées,https://facebook.com/post/303,link,150,4,36
+304,user_60,Utilisateur_46,2024-12-14 03:46:14,Risque de glissement de terrain,https://facebook.com/post/304,image,154,4,37
+305,user_60,Utilisateur_30,2024-12-18 20:15:14,Accès à l'électricité coupé dans plusieurs quartiers,https://facebook.com/post/305,video,258,2,21
+306,user_69,Utilisateur_61,2024-12-04 21:19:14,Alerte de montée des eaux,https://facebook.com/post/306,video,306,9,32
+307,user_23,Utilisateur_33,2024-12-13 23:47:14,Information sur les zones d'évacuation,https://facebook.com/post/307,video,429,15,17
+308,user_99,Utilisateur_41,2024-11-28 23:54:14,Appel à témoins pour retrouver des proches,https://facebook.com/post/308,image,80,15,43
+309,user_79,Utilisateur_10,2024-11-28 07:08:14,Mise en place de centres de refuge,https://facebook.com/post/309,image,357,2,20
+310,user_88,Utilisateur_72,2024-12-12 09:03:14,Accès à l'électricité coupé dans plusieurs quartiers,https://facebook.com/post/310,video,93,18,29
+311,user_98,Utilisateur_43,2024-12-12 03:46:14,Recherche de la famille perdue à cause du cyclone,https://facebook.com/post/311,video,7,12,8
+312,user_94,Utilisateur_21,2024-11-30 02:56:14,Recherche de la famille perdue à cause du cyclone,https://facebook.com/post/312,image,370,6,15
+313,user_6,Utilisateur_20,2024-12-05 16:02:14,Besoin de vêtements et de couvertures pour les sinistrés,https://facebook.com/post/313,image,409,7,46
+314,user_31,Utilisateur_1,2024-12-05 12:16:14,Alerte de montée des eaux,https://facebook.com/post/314,image,426,12,14
+315,user_19,Utilisateur_85,2024-11-30 17:27:14,Risque de glissement de terrain,https://facebook.com/post/315,text,409,3,31
+316,user_82,Utilisateur_88,2024-12-05 05:57:14,Décès signalé suite à un éboulement,https://facebook.com/post/316,text,76,0,36
+317,user_7,Utilisateur_94,2024-12-07 16:10:14,Recherches de familles disparues après la crue,https://facebook.com/post/317,image,254,4,16
+318,user_83,Utilisateur_88,2024-12-02 20:09:14,Information sur les zones d'évacuation,https://facebook.com/post/318,image,277,19,20
+319,user_53,Utilisateur_92,2024-12-18 19:58:14,Risque de glissement de terrain,https://facebook.com/post/319,link,479,16,38
+320,user_61,Utilisateur_92,2024-11-29 05:14:14,Annonces de personnes retrouvées saines et sauves,https://facebook.com/post/320,text,289,17,32
+321,user_3,Utilisateur_71,2024-11-26 14:30:14,Besoin de vêtements et de couvertures pour les sinistrés,https://facebook.com/post/321,link,132,6,22
+322,user_85,Utilisateur_94,2024-11-26 18:50:14,Besoin urgent d'aide pour les sinistrés,https://facebook.com/post/322,link,482,10,7
+323,user_30,Utilisateur_78,2024-12-02 19:22:14,Décès signalé suite à un éboulement,https://facebook.com/post/323,text,482,4,13
+324,user_35,Utilisateur_55,2024-12-09 19:22:14,Point de rencontre pour les familles dispersées,https://facebook.com/post/324,link,368,14,42
+325,user_23,Utilisateur_33,2024-12-10 23:17:14,Mise en place de centres de refuge,https://facebook.com/post/325,text,20,14,41
+326,user_32,Utilisateur_21,2024-11-21 16:37:14,Besoin de vêtements et de couvertures pour les sinistrés,https://facebook.com/post/326,link,110,9,26
+327,user_86,Utilisateur_43,2024-12-06 04:53:14,Annonces de personnes retrouvées saines et sauves,https://facebook.com/post/327,link,236,14,32
+328,user_72,Utilisateur_28,2024-12-13 12:59:14,Signalement de routes bloquées,https://facebook.com/post/328,link,452,0,17
+329,user_44,Utilisateur_36,2024-12-11 01:35:14,Point d'eau potable disponible,https://facebook.com/post/329,video,74,2,17
+330,user_37,Utilisateur_8,2024-12-13 04:30:14,Recherche de la famille perdue à cause du cyclone,https://facebook.com/post/330,text,193,9,50
+331,user_31,Utilisateur_39,2024-12-18 07:22:14,Accès à l'électricité coupé dans plusieurs quartiers,https://facebook.com/post/331,video,244,20,50
+332,user_13,Utilisateur_72,2024-12-13 01:38:14,Recherches de familles disparues après la crue,https://facebook.com/post/332,image,481,7,6
+333,user_97,Utilisateur_81,2024-12-11 23:33:14,Appel à témoins pour retrouver des proches,https://facebook.com/post/333,link,164,10,47
+334,user_58,Utilisateur_37,2024-11-25 06:45:14,Point de rencontre pour les familles dispersées,https://facebook.com/post/334,link,68,10,41
+335,user_87,Utilisateur_7,2024-11-20 21:23:14,Annonces de personnes retrouvées saines et sauves,https://facebook.com/post/335,image,62,17,46
+336,user_71,Utilisateur_3,2024-12-04 14:52:14,Annonces de personnes retrouvées saines et sauves,https://facebook.com/post/336,video,123,20,9
+337,user_36,Utilisateur_37,2024-12-18 08:19:14,Besoin urgent d'aide pour les sinistrés,https://facebook.com/post/337,image,442,16,36
+338,user_19,Utilisateur_13,2024-12-09 19:21:14,Point de rencontre pour les familles dispersées,https://facebook.com/post/338,link,122,18,38
+339,user_46,Utilisateur_35,2024-12-10 00:44:14,Information sur les zones d'évacuation,https://facebook.com/post/339,link,278,15,24
+340,user_36,Utilisateur_11,2024-11-30 04:44:14,Annonces de personnes retrouvées saines et sauves,https://facebook.com/post/340,video,108,11,45
+341,user_39,Utilisateur_76,2024-12-12 05:51:14,Mise en place de centres de refuge,https://facebook.com/post/341,image,33,13,21
+342,user_41,Utilisateur_10,2024-12-13 16:51:14,Besoin urgent d'aide pour les sinistrés,https://facebook.com/post/342,video,297,6,19
+343,user_66,Utilisateur_77,2024-12-04 19:44:14,Signalement de routes bloquées,https://facebook.com/post/343,image,36,19,23
+344,user_49,Utilisateur_42,2024-12-02 08:22:14,Accès à l'électricité coupé dans plusieurs quartiers,https://facebook.com/post/344,video,151,12,7
+345,user_81,Utilisateur_72,2024-12-12 13:25:14,Appel à témoins pour retrouver des proches,https://facebook.com/post/345,text,63,14,10
+346,user_5,Utilisateur_39,2024-11-24 07:36:14,Besoin urgent d'aide pour les sinistrés,https://facebook.com/post/346,video,12,11,6
+347,user_20,Utilisateur_73,2024-12-17 06:39:14,Équipe de secours en route,https://facebook.com/post/347,link,84,11,16
+348,user_65,Utilisateur_35,2024-11-28 14:04:14,Point de rencontre pour les familles dispersées,https://facebook.com/post/348,link,360,2,37
+349,user_40,Utilisateur_100,2024-12-12 07:40:14,Information sur les zones d'évacuation,https://facebook.com/post/349,video,178,13,4
+350,user_57,Utilisateur_57,2024-12-06 01:12:14,Décès signalé suite à un éboulement,https://facebook.com/post/350,link,398,12,16
+351,user_40,Utilisateur_27,2024-12-16 13:46:14,Chute d'arbres signalée sur la route principale,https://facebook.com/post/351,text,157,8,10
+352,user_95,Utilisateur_62,2024-11-25 00:54:14,Chute d'arbres signalée sur la route principale,https://facebook.com/post/352,link,457,6,48
+353,user_47,Utilisateur_81,2024-11-20 13:56:14,Annonce de réouverture de certaines routes,https://facebook.com/post/353,image,497,16,42
+354,user_5,Utilisateur_44,2024-11-28 14:18:14,Appel à témoins pour retrouver des proches,https://facebook.com/post/354,text,368,10,15
+355,user_18,Utilisateur_39,2024-11-27 03:16:14,Équipe de secours en route,https://facebook.com/post/355,link,431,0,0
+356,user_14,Utilisateur_27,2024-12-05 18:00:14,Chute d'arbres signalée sur la route principale,https://facebook.com/post/356,link,48,6,11
+357,user_91,Utilisateur_28,2024-12-12 09:14:14,Besoin urgent d'aide pour les sinistrés,https://facebook.com/post/357,image,296,12,28
+358,user_62,Utilisateur_38,2024-12-13 11:36:14,Chute d'arbres signalée sur la route principale,https://facebook.com/post/358,image,118,18,45
+359,user_4,Utilisateur_54,2024-11-29 06:02:14,Appel à témoins pour retrouver des proches,https://facebook.com/post/359,text,385,16,26
+360,user_59,Utilisateur_99,2024-11-20 23:15:14,Besoin de vêtements et de couvertures pour les sinistrés,https://facebook.com/post/360,video,137,9,0
+361,user_61,Utilisateur_53,2024-12-01 20:23:14,Signalement de routes bloquées,https://facebook.com/post/361,link,46,3,7
+362,user_56,Utilisateur_25,2024-12-03 20:07:14,Annonce de réouverture de certaines routes,https://facebook.com/post/362,image,260,1,47
+363,user_15,Utilisateur_64,2024-12-05 12:59:14,Annonce de réouverture de certaines routes,https://facebook.com/post/363,link,0,15,49
+364,user_84,Utilisateur_4,2024-11-29 17:08:14,Point de distribution de nourriture ouvert,https://facebook.com/post/364,text,212,15,27
+365,user_11,Utilisateur_13,2024-12-14 06:51:14,Appel à témoins pour retrouver des proches,https://facebook.com/post/365,link,418,15,26
+366,user_28,Utilisateur_26,2024-11-28 11:44:14,Besoin de vêtements et de couvertures pour les sinistrés,https://facebook.com/post/366,link,313,2,40
+367,user_37,Utilisateur_3,2024-12-13 07:25:14,Point de rencontre pour les familles dispersées,https://facebook.com/post/367,link,263,0,21
+368,user_10,Utilisateur_50,2024-11-27 07:45:14,Chute d'arbres signalée sur la route principale,https://facebook.com/post/368,link,200,0,26
+369,user_61,Utilisateur_64,2024-12-07 10:55:14,Point de rencontre pour les familles dispersées,https://facebook.com/post/369,link,291,10,47
+370,user_15,Utilisateur_91,2024-11-23 04:40:14,Signalement de routes bloquées,https://facebook.com/post/370,text,38,19,30
+371,user_43,Utilisateur_74,2024-12-17 22:37:14,Appel de recherche d'enfants disparus,https://facebook.com/post/371,image,179,3,21
+372,user_18,Utilisateur_85,2024-12-04 20:28:14,Recherches de familles disparues après la crue,https://facebook.com/post/372,image,91,19,43
+373,user_74,Utilisateur_74,2024-11-18 16:10:14,Recherche de la famille perdue à cause du cyclone,https://facebook.com/post/373,video,385,0,38
+374,user_11,Utilisateur_36,2024-11-29 23:37:14,Accès à l'électricité coupé dans plusieurs quartiers,https://facebook.com/post/374,text,361,19,47
+375,user_16,Utilisateur_80,2024-11-20 18:53:14,Signalement de routes bloquées,https://facebook.com/post/375,video,30,3,38
+376,user_28,Utilisateur_26,2024-11-22 22:13:14,Besoin urgent d'aide pour les sinistrés,https://facebook.com/post/376,text,258,0,9
+377,user_82,Utilisateur_77,2024-11-30 17:13:14,Chute d'arbres signalée sur la route principale,https://facebook.com/post/377,image,76,1,27
+378,user_63,Utilisateur_28,2024-11-19 13:03:14,Recherche de la famille perdue à cause du cyclone,https://facebook.com/post/378,text,395,10,20
+379,user_83,Utilisateur_72,2024-12-09 11:40:14,Appel à témoins pour retrouver des proches,https://facebook.com/post/379,image,28,13,16
+380,user_58,Utilisateur_18,2024-12-04 14:43:14,Point de rencontre pour les familles dispersées,https://facebook.com/post/380,image,357,2,11
+381,user_98,Utilisateur_7,2024-12-16 22:42:14,Chute d'arbres signalée sur la route principale,https://facebook.com/post/381,video,375,14,4
+382,user_77,Utilisateur_96,2024-12-06 01:56:14,Risque de glissement de terrain,https://facebook.com/post/382,image,44,8,46
+383,user_64,Utilisateur_85,2024-11-26 17:09:14,Besoin urgent d'aide pour les sinistrés,https://facebook.com/post/383,video,473,18,9
+384,user_24,Utilisateur_82,2024-12-19 02:27:14,Risque de glissement de terrain,https://facebook.com/post/384,text,259,10,44
+385,user_84,Utilisateur_92,2024-12-11 15:46:14,Point de distribution de nourriture ouvert,https://facebook.com/post/385,image,411,11,23
+386,user_73,Utilisateur_54,2024-12-16 18:50:14,Signalement de routes bloquées,https://facebook.com/post/386,image,13,15,22
+387,user_8,Utilisateur_43,2024-11-29 00:17:14,Point de distribution de nourriture ouvert,https://facebook.com/post/387,text,366,9,44
+388,user_33,Utilisateur_46,2024-11-23 02:53:14,Accès à l'électricité coupé dans plusieurs quartiers,https://facebook.com/post/388,video,21,7,23
+389,user_11,Utilisateur_30,2024-12-16 14:14:14,Besoin de vêtements et de couvertures pour les sinistrés,https://facebook.com/post/389,text,155,14,15
+390,user_6,Utilisateur_94,2024-11-26 07:08:14,Besoin de vêtements et de couvertures pour les sinistrés,https://facebook.com/post/390,image,155,15,32
+391,user_96,Utilisateur_34,2024-11-24 00:48:14,Décès signalé suite à un éboulement,https://facebook.com/post/391,image,279,17,43
+392,user_19,Utilisateur_86,2024-12-07 18:34:14,Décès signalé suite à un éboulement,https://facebook.com/post/392,text,472,16,12
+393,user_82,Utilisateur_8,2024-11-29 00:00:14,Appel à témoins pour retrouver des proches,https://facebook.com/post/393,image,240,0,16
+394,user_37,Utilisateur_94,2024-12-16 16:08:14,Risque de glissement de terrain,https://facebook.com/post/394,text,427,20,21
+395,user_76,Utilisateur_85,2024-11-18 21:55:14,Recherches de familles disparues après la crue,https://facebook.com/post/395,image,259,10,36
+396,user_39,Utilisateur_4,2024-12-12 16:43:14,Risque de glissement de terrain,https://facebook.com/post/396,text,363,15,47
+397,user_43,Utilisateur_20,2024-11-29 16:40:14,Recherche de la famille perdue à cause du cyclone,https://facebook.com/post/397,link,37,5,48
+398,user_99,Utilisateur_45,2024-12-10 23:02:14,Appel de recherche d'enfants disparus,https://facebook.com/post/398,video,246,18,18
+399,user_98,Utilisateur_6,2024-12-01 23:21:14,Appel de recherche d'enfants disparus,https://facebook.com/post/399,video,474,8,3
+400,user_1,Utilisateur_34,2024-11-21 21:02:14,Point d'eau potable disponible,https://facebook.com/post/400,video,210,8,45
+401,user_13,Utilisateur_67,2024-11-22 02:29:14,Besoin de vêtements et de couvertures pour les sinistrés,https://facebook.com/post/401,image,70,13,37
+402,user_47,Utilisateur_57,2024-12-16 02:38:14,Besoin urgent d'aide pour les sinistrés,https://facebook.com/post/402,video,204,12,38
+403,user_17,Utilisateur_63,2024-12-04 13:15:14,Recherches de familles disparues après la crue,https://facebook.com/post/403,image,44,8,9
+404,user_95,Utilisateur_98,2024-12-16 20:06:14,Appel à témoins pour retrouver des proches,https://facebook.com/post/404,link,103,17,41
+405,user_66,Utilisateur_21,2024-12-06 23:19:14,Équipe de secours en route,https://facebook.com/post/405,image,408,20,0
+406,user_79,Utilisateur_56,2024-12-10 05:46:14,Décès signalé suite à un éboulement,https://facebook.com/post/406,text,264,8,44
+407,user_57,Utilisateur_34,2024-11-19 10:19:14,Alerte de montée des eaux,https://facebook.com/post/407,link,455,15,27
+408,user_75,Utilisateur_92,2024-11-21 10:04:14,Point d'eau potable disponible,https://facebook.com/post/408,image,180,10,17
+409,user_91,Utilisateur_28,2024-12-08 23:48:14,Mise en place de centres de refuge,https://facebook.com/post/409,link,2,19,20
+410,user_20,Utilisateur_21,2024-12-16 08:49:14,Accès à l'électricité coupé dans plusieurs quartiers,https://facebook.com/post/410,link,228,11,40
+411,user_15,Utilisateur_58,2024-12-06 09:18:14,Chute d'arbres signalée sur la route principale,https://facebook.com/post/411,video,315,18,14
+412,user_95,Utilisateur_23,2024-11-27 12:15:14,Besoin urgent d'aide pour les sinistrés,https://facebook.com/post/412,text,273,18,48
+413,user_77,Utilisateur_26,2024-12-06 06:32:14,Chute d'arbres signalée sur la route principale,https://facebook.com/post/413,text,407,13,24
+414,user_6,Utilisateur_30,2024-12-15 15:25:14,Annonces de personnes retrouvées saines et sauves,https://facebook.com/post/414,link,230,2,41
+415,user_53,Utilisateur_36,2024-11-29 10:42:14,Alerte de montée des eaux,https://facebook.com/post/415,image,491,0,24
+416,user_99,Utilisateur_76,2024-12-10 18:15:14,Appel à témoins pour retrouver des proches,https://facebook.com/post/416,image,62,1,37
+417,user_88,Utilisateur_9,2024-12-11 18:29:14,Mise en place de centres de refuge,https://facebook.com/post/417,text,289,18,35
+418,user_89,Utilisateur_15,2024-12-01 12:18:14,Signalement de routes bloquées,https://facebook.com/post/418,video,410,2,15
+419,user_12,Utilisateur_42,2024-12-04 21:07:14,Mise en place de centres de refuge,https://facebook.com/post/419,video,405,12,5
+420,user_9,Utilisateur_56,2024-12-11 07:05:14,Équipe de secours en route,https://facebook.com/post/420,text,424,3,16
+421,user_98,Utilisateur_20,2024-11-25 08:19:14,Besoin de vêtements et de couvertures pour les sinistrés,https://facebook.com/post/421,video,165,11,49
+422,user_11,Utilisateur_81,2024-12-06 13:18:14,Recherches de familles disparues après la crue,https://facebook.com/post/422,link,138,20,4
+423,user_71,Utilisateur_48,2024-11-21 22:25:14,Appel de recherche d'enfants disparus,https://facebook.com/post/423,text,128,14,47
+424,user_28,Utilisateur_25,2024-11-29 07:09:14,Besoin urgent d'aide pour les sinistrés,https://facebook.com/post/424,video,302,20,31
+425,user_51,Utilisateur_79,2024-12-16 18:30:14,Signalement de routes bloquées,https://facebook.com/post/425,image,34,13,16
+426,user_89,Utilisateur_43,2024-11-19 01:41:14,Risque de glissement de terrain,https://facebook.com/post/426,video,211,14,40
+427,user_33,Utilisateur_19,2024-11-20 18:12:14,Mise en place de centres de refuge,https://facebook.com/post/427,image,175,15,21
+428,user_80,Utilisateur_36,2024-11-26 20:09:14,Mise en place de centres de refuge,https://facebook.com/post/428,link,280,16,31
+429,user_50,Utilisateur_45,2024-12-09 08:42:14,Alerte de montée des eaux,https://facebook.com/post/429,link,298,1,44
+430,user_69,Utilisateur_19,2024-12-15 12:21:14,Point de distribution de nourriture ouvert,https://facebook.com/post/430,text,222,19,22
+431,user_65,Utilisateur_34,2024-11-27 07:53:14,Recherches de familles disparues après la crue,https://facebook.com/post/431,image,220,15,20
+432,user_90,Utilisateur_37,2024-11-20 14:37:14,Recherche de la famille perdue à cause du cyclone,https://facebook.com/post/432,video,56,17,23
+433,user_17,Utilisateur_82,2024-12-05 03:40:14,Alerte de montée des eaux,https://facebook.com/post/433,image,138,7,17
+434,user_10,Utilisateur_66,2024-12-17 19:16:14,Décès signalé suite à un éboulement,https://facebook.com/post/434,video,355,11,27
+435,user_4,Utilisateur_64,2024-11-19 21:00:14,Recherche de la famille perdue à cause du cyclone,https://facebook.com/post/435,image,161,9,50
+436,user_4,Utilisateur_25,2024-12-07 16:10:14,Appel à témoins pour retrouver des proches,https://facebook.com/post/436,video,215,11,40
+437,user_64,Utilisateur_62,2024-12-15 10:16:14,Besoin urgent d'aide pour les sinistrés,https://facebook.com/post/437,link,184,3,16
+438,user_82,Utilisateur_1,2024-12-07 04:25:14,Annonce de réouverture de certaines routes,https://facebook.com/post/438,image,22,4,21
+439,user_49,Utilisateur_52,2024-12-18 22:43:14,Accès à l'électricité coupé dans plusieurs quartiers,https://facebook.com/post/439,link,126,19,11
+440,user_96,Utilisateur_16,2024-12-06 23:43:14,Risque de glissement de terrain,https://facebook.com/post/440,image,232,4,24
+441,user_96,Utilisateur_46,2024-11-20 19:43:14,Point de rencontre pour les familles dispersées,https://facebook.com/post/441,text,146,19,23
+442,user_16,Utilisateur_41,2024-12-14 12:48:14,Besoin urgent d'aide pour les sinistrés,https://facebook.com/post/442,video,395,19,23
+443,user_25,Utilisateur_33,2024-11-22 13:16:14,Mise en place de centres de refuge,https://facebook.com/post/443,video,14,8,35
+444,user_31,Utilisateur_64,2024-12-09 15:08:14,Information sur les zones d'évacuation,https://facebook.com/post/444,link,46,6,15
+445,user_85,Utilisateur_64,2024-12-11 22:19:14,Signalement de routes bloquées,https://facebook.com/post/445,image,351,20,47
+446,user_86,Utilisateur_67,2024-11-19 02:56:14,Besoin urgent d'aide pour les sinistrés,https://facebook.com/post/446,image,104,3,10
+447,user_40,Utilisateur_1,2024-11-18 15:53:14,Risque de glissement de terrain,https://facebook.com/post/447,link,26,7,11
+448,user_35,Utilisateur_53,2024-12-17 14:51:14,Point de rencontre pour les familles dispersées,https://facebook.com/post/448,text,327,6,15
+449,user_9,Utilisateur_81,2024-12-01 18:10:14,Annonces de personnes retrouvées saines et sauves,https://facebook.com/post/449,link,138,18,3
+450,user_8,Utilisateur_12,2024-12-02 05:51:14,Point de rencontre pour les familles dispersées,https://facebook.com/post/450,text,112,8,46
+451,user_40,Utilisateur_69,2024-11-28 21:39:14,Point d'eau potable disponible,https://facebook.com/post/451,image,466,3,5
+452,user_63,Utilisateur_97,2024-11-30 05:55:14,Équipe de secours en route,https://facebook.com/post/452,link,154,14,23
+453,user_44,Utilisateur_69,2024-12-17 18:34:14,Recherche de la famille perdue à cause du cyclone,https://facebook.com/post/453,link,470,5,44
+454,user_63,Utilisateur_40,2024-12-08 20:50:14,Appel de recherche d'enfants disparus,https://facebook.com/post/454,video,76,3,31
+455,user_29,Utilisateur_98,2024-11-28 08:50:14,Recherche de la famille perdue à cause du cyclone,https://facebook.com/post/455,video,153,2,43
+456,user_47,Utilisateur_23,2024-12-18 02:05:14,Chute d'arbres signalée sur la route principale,https://facebook.com/post/456,link,126,0,28
+457,user_56,Utilisateur_81,2024-11-30 23:51:14,Recherches de familles disparues après la crue,https://facebook.com/post/457,text,446,8,47
+458,user_94,Utilisateur_76,2024-11-26 21:47:14,Point d'eau potable disponible,https://facebook.com/post/458,text,130,13,3
+459,user_83,Utilisateur_84,2024-11-20 06:34:14,Appel à témoins pour retrouver des proches,https://facebook.com/post/459,text,439,11,46
+460,user_13,Utilisateur_30,2024-12-13 05:38:14,Alerte de montée des eaux,https://facebook.com/post/460,link,25,14,1
+461,user_45,Utilisateur_83,2024-12-06 20:10:14,Point de rencontre pour les familles dispersées,https://facebook.com/post/461,video,106,9,48
+462,user_21,Utilisateur_24,2024-12-11 19:51:14,Besoin urgent d'aide pour les sinistrés,https://facebook.com/post/462,link,480,3,48
+463,user_94,Utilisateur_93,2024-11-24 08:26:14,Alerte de montée des eaux,https://facebook.com/post/463,video,430,18,19
+464,user_62,Utilisateur_10,2024-12-06 07:06:14,Point de rencontre pour les familles dispersées,https://facebook.com/post/464,image,264,9,42
+465,user_98,Utilisateur_40,2024-12-06 21:12:14,Annonces de personnes retrouvées saines et sauves,https://facebook.com/post/465,image,125,0,9
+466,user_9,Utilisateur_41,2024-12-04 13:07:14,Besoin urgent d'aide pour les sinistrés,https://facebook.com/post/466,image,168,18,25
+467,user_88,Utilisateur_30,2024-12-02 13:39:14,Annonce de réouverture de certaines routes,https://facebook.com/post/467,link,93,14,41
+468,user_70,Utilisateur_79,2024-12-14 21:31:14,Information sur les zones d'évacuation,https://facebook.com/post/468,image,490,1,16
+469,user_70,Utilisateur_38,2024-12-11 14:17:14,Annonces de personnes retrouvées saines et sauves,https://facebook.com/post/469,link,371,9,17
+470,user_60,Utilisateur_94,2024-12-05 19:15:14,Point de distribution de nourriture ouvert,https://facebook.com/post/470,video,70,2,29
+471,user_47,Utilisateur_94,2024-11-26 08:09:14,Signalement de routes bloquées,https://facebook.com/post/471,image,246,20,26
+472,user_75,Utilisateur_32,2024-12-09 01:10:14,Information sur les zones d'évacuation,https://facebook.com/post/472,image,65,14,46
+473,user_45,Utilisateur_35,2024-12-03 05:44:14,Risque de glissement de terrain,https://facebook.com/post/473,video,164,16,25
+474,user_89,Utilisateur_42,2024-12-10 16:31:14,Mise en place de centres de refuge,https://facebook.com/post/474,video,445,16,33
+475,user_79,Utilisateur_61,2024-12-10 07:39:14,Point de distribution de nourriture ouvert,https://facebook.com/post/475,text,77,5,40
+476,user_37,Utilisateur_8,2024-12-16 13:58:14,Information sur les zones d'évacuation,https://facebook.com/post/476,text,428,18,2
+477,user_75,Utilisateur_82,2024-12-02 16:11:14,Mise en place de centres de refuge,https://facebook.com/post/477,image,491,13,12
+478,user_62,Utilisateur_36,2024-11-20 10:43:14,Recherches de familles disparues après la crue,https://facebook.com/post/478,text,172,7,15
+479,user_11,Utilisateur_27,2024-12-14 15:19:14,Équipe de secours en route,https://facebook.com/post/479,video,273,7,48
+480,user_21,Utilisateur_55,2024-12-02 14:46:14,Équipe de secours en route,https://facebook.com/post/480,image,245,2,13
+481,user_86,Utilisateur_18,2024-12-03 03:26:14,Recherches de familles disparues après la crue,https://facebook.com/post/481,link,393,0,46
+482,user_1,Utilisateur_64,2024-12-14 17:03:14,Mise en place de centres de refuge,https://facebook.com/post/482,link,313,4,42
+483,user_1,Utilisateur_29,2024-12-12 06:38:14,Besoin de vêtements et de couvertures pour les sinistrés,https://facebook.com/post/483,text,400,12,9
+484,user_40,Utilisateur_46,2024-12-13 12:58:14,Annonces de personnes retrouvées saines et sauves,https://facebook.com/post/484,text,7,16,46
+485,user_5,Utilisateur_10,2024-11-23 15:05:14,Chute d'arbres signalée sur la route principale,https://facebook.com/post/485,image,168,0,9
+486,user_5,Utilisateur_13,2024-12-07 22:18:14,Alerte de montée des eaux,https://facebook.com/post/486,text,431,14,20
+487,user_24,Utilisateur_72,2024-12-03 12:08:14,Équipe de secours en route,https://facebook.com/post/487,link,252,10,31
+488,user_13,Utilisateur_91,2024-12-07 13:25:14,Appel à témoins pour retrouver des proches,https://facebook.com/post/488,image,96,9,23
+489,user_40,Utilisateur_49,2024-12-09 10:11:14,Recherches de familles disparues après la crue,https://facebook.com/post/489,text,344,18,45
+490,user_96,Utilisateur_73,2024-11-30 17:31:14,Recherche de la famille perdue à cause du cyclone,https://facebook.com/post/490,image,16,15,9
+491,user_89,Utilisateur_50,2024-12-05 15:31:14,Annonces de personnes retrouvées saines et sauves,https://facebook.com/post/491,text,256,0,15
+492,user_88,Utilisateur_60,2024-11-26 01:18:14,Accès à l'électricité coupé dans plusieurs quartiers,https://facebook.com/post/492,link,114,10,22
+493,user_29,Utilisateur_48,2024-12-11 14:14:14,Appel de recherche d'enfants disparus,https://facebook.com/post/493,image,159,14,11
+494,user_22,Utilisateur_21,2024-12-13 17:20:14,Besoin urgent d'aide pour les sinistrés,https://facebook.com/post/494,image,82,15,40
+495,user_7,Utilisateur_54,2024-12-06 16:10:14,Besoin urgent d'aide pour les sinistrés,https://facebook.com/post/495,text,315,2,23
+496,user_100,Utilisateur_97,2024-12-14 03:23:14,Point de distribution de nourriture ouvert,https://facebook.com/post/496,video,181,14,33
+497,user_94,Utilisateur_95,2024-11-30 17:45:14,Accès à l'électricité coupé dans plusieurs quartiers,https://facebook.com/post/497,image,401,3,22
+498,user_18,Utilisateur_69,2024-11-23 04:50:14,Risque de glissement de terrain,https://facebook.com/post/498,video,156,2,31
+499,user_1,Utilisateur_58,2024-11-22 14:26:14,Signalement de routes bloquées,https://facebook.com/post/499,link,365,2,2
+500,user_34,Utilisateur_63,2024-11-26 09:46:14,Point de distribution de nourriture ouvert,https://facebook.com/post/500,video,482,6,28
